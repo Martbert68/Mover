@@ -1,4 +1,4 @@
 CC=gcc
-waver: waver.c 
-	$(CC) waver.c -o waver -l X11 -lm -ljpeg -lasound -lpthread
-all: waver
+waver: mover.c 
+	$(CC) mover.c -o mover -l X11 -lm -ljpeg -lasound -lpthread
+all: mover 
